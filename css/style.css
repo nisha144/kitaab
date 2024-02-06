@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e2e8f0;
+}
+.products {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.product__item {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 0 1px #ebebeb inset;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  height: 100%;
+}
+.product__item-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 280px;
+  border-radius: 5px;
+}
+.product__item-image img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.product__item-image img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.product__item-image span{
+  top:25px;
+  right: 15px;
+  background:rgb(255, 173, 94);
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 12px;
+}
+.product__item-price .product__item-actual
+ span{
+  color:#ffad5e;
+  font-style: italic;
+  font-size: 15px;
+}
+.product__item-actual span:before{
+  content: "";
+  width: 26%;
+  height: 1px;
+  display: inline-block;
+  background-color: rgb(255, 179, 105);
+  position: absolute;
+  top:86%;
+  left: 8px;
+}
+.product__item-discount{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.product__item-discount button{
+  border: 2px solid rgb(0, 158, 127);
+  color: #198754;
+  border-radius: 20px;
+  width: 80px;
+  height: 36px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.product__item-discount button span{
+  box-sizing: border-box;
+  min-width: 20px;
+  margin: 0px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+.product__item-discount button span i{
+  margin-right: 4px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+.product__item-discount button:hover{
+  background: #198754;
+  transition: 0.5s all;
+}
+.product__item-discount button:hover span{
+  color: #fff;
+  transition: 0.5s all;
+}
+.product__item-brand i{
+  color: rgb(119, 121, 140);
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: -10px;
+}
+.product__item-info p{
+  margin-top: 5px;
+  color: #198754;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-overflow: ellipsis;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.product__item-info h4{
+  font-size:13px ;
+  margin-top: -10px;
+  font-weight: 400;
+}
+.products .row {
+  margin-top: 40px;
+}
+.load_button {
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.load_button button {
+  min-width: 135px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 158, 127);
+  color: rgb(0, 158, 127);
+  margin-bottom: 20px;
+}
+.product__item-price{
+ 
+}
+.product__item-price span {
+  font-size: 16px;
+  color: #198754;
+}
+
+/*  footer  */
+footer{
+  background-image: linear-gradient(var(--gradient-angle),var(--gradient-from),var(--gradient-to));
+  height: 25vw;
+  margin-top: 50px;
+  padding: 20px;
+}
+.container{
+ justify-content: space-between;
+
+}
+.exact-active{
+ color: #5f5d5d; 
+}
+.grid-cols-2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.grid{
+  justify-content: space-between;
+  display: flex;
+}
+.grid ul li a {
+  color: #767575;
+}
+footer ul{
+ gap: 2rem;
+ display: flex;
+}
+footer ul li{
+  list-style-type: none;
+ }
+footer ul li a{
+  text-decoration: none;
+  color: #767575;
+}
+footer ul li a i{
+  color: #767575;
+}
+address{
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+}
+address span{
+  font-size: 14px;
+  text-align: right;
+}
+address span i{
+  opacity: 50%;
+}
+.footer__wrap {
+  float: right;
+  padding-left: 1.5rem;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100rem;
+  margin-top: 30px;
+}
+.footer__wrap ul li a{
+  font-size: 13px;
+ margin-left: 45px;
+  opacity: 75%;
+}
