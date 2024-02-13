@@ -596,7 +596,7 @@ address span i {
     width: 50%;
   }
 }
-  @media only screen and (min-width: 400px) and (max-width: 1248px){
+  @media only screen and (min-width: 447px) and (max-width: 1248px){
     .image__wrapper {
       
      
@@ -613,6 +613,9 @@ address span i {
     height: auto;
     align-items: center;
     position: relative;
+  }
+  .main .page__content .book__title{
+    font-size: 12px;
   }
 }
   @media only screen and (min-width: 400px) and (max-width: 1248px){
