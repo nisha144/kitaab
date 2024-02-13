@@ -9,6 +9,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!----google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=KoHo:wght@200&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
 	<!-----Bootstrap------->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -21,767 +29,539 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Genos:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<!-----slick---->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 	<!-----Custom CSS-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
 <body>
-	<div class="products">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Society and Technology</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 395.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 197.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
+	<!-----header---->
+	<section class="header">
+		<div class="header__banner">
+
+			<div class="nav1">
+				<div class="container">
+					<div class="nav__container">
+						<div class="header__content">
+							<p>
+								<i class="fa-regular fa-clock"></i>
+								Hurrah! Get Free Shipping on All Orders Over $99!
+							</p>
+						</div>
+						<div class="selector">
+							<div class="language__selector">
+								<div class="language__selector-wrapper">
+									<button data-toggle="dropdown"
+										class="hidden-sm-down btn unstyled">
+										<span>English</span>
+										<i class="bx bx-chevron-down"></i>
 									</button>
 								</div>
+							</div>
+							<div class="currency__selector">
+								<div class="currency__selector-wrapper">
+									<button data-toggle="dropdown"
+										class="hidden-sm-down btn unstyled">
+										<span>USD $</span>
+										<i class="bx bx-chevron-down"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
 
+				</div>
+			</div>
+
+			<div class="nav2">
+				<div class="container">
+					<div class="nav__container">
+						<div class="logo">
+							<img src="img/logo/logo.png" width="200px">
+						</div>
+						<div id="search__bar">
+
+							<input class="search_query form-control" type="search" name="s"
+								placeholder="Search here..." value="">
+							<button type="submit" name="submit_search"
+								class="btn btn-default button-search">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+									Search
+								</span>
+							</button>
+						</div>
+
+						<div class="menu__area">
+							<div class="top__wishlist">
+								<a href="#"><i class="fa-regular fa-heart"></i>
+									<span class="wishlist__number">0</span>
+								</a>
+							</div>
+                                     <div class="cart" type="button" data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+								<a href="#"><i class='bx bx-shopping-bag'></i>
+								</a>
+							</div>
+                                            <div class="user__info">
+								<a href="#"><i class="fa-regular fa-user"></i>
+									<span></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div>
+					</div>
+
+				</div>
+	</section>
+
+	<!----Main Content---->
+	<div class="main">
+		<div class="page__content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6">
+						
+						<div class="back__button">
+							<a href="#">
+								<span class="back__icon"><i class="fa-solid fa-arrow-left"></i></span>
+								<span class="back__text">Back</span>
+							</a>
+							
+				     
 						</div>
 						
+						<div class="image__wrapper">
+							<img src="img/2.jpg">
+							<span>50%</span>
+						
+							
+							
+						</div>
+						</div>
+						
+
+					<div class="col-lg-6">
+						<div class="book__title">
+							<h5>Oxford English for Computing</h5>
+						</div>
+						<div class="book__info">
+							<table class="table table-borderless" style="width: 50%;">
+
+
+
+
+								<tbody>
+									<tr>
+										<th scope="col">Condition</th>
+										<th scope="col" style="color: #009e7f;">Brand New</th>
+
+									</tr>
+									<tr>
+
+										<th scope="col">Author</th>
+										<th scope="col">Jitendra Pd. Upadhyay</th>
+									</tr>
+									<tr>
+
+										<th scope="col">Publication</th>
+										<th scope="col">KEC</th>
+									</tr>
+									<tr>
+
+										<th scope="col">Level</th>
+										<th scope="col">Bachelor</th>
+									</tr>
+									<tr>
+
+										<th scope="col">Semester</th>
+										<th scope="col">Second</th>
+									</tr>
+									<tr>
+
+										<th scope="col">University</th>
+										<th scope="col">Tribhuvan University</th>
+									</tr>
+									<tr>
+
+										<th scope="col">Edition</th>
+										<th scope="col">First 2077</th>
+									</tr>
+
+
+								</tbody>
+							</table>
+
+						</div>
+						<div class="product__cart-wrapper">
+							<div class="product__price-wrapper">
+								<div class="product-_price">
+									Rs 357
+								</div>
+								<div class="discounted__price">
+									Rs 595
+								</div>
+							</div>
+							<div class="product__cart-btn">
+								<button type="button">
+									<span class="btn-icon">
+										<i class="bx bx-cart-alt"></i>
+									</span>
+									<span class="btn-text">
+										Buy now
+									</span>
+								</button>
+
+								<button type="button">
+									<span class="btn-icon">
+										<i class="bx bx-cart-alt"></i>
+									</span>
+									<span class="btn-text">
+										Add to Cart
+									</span>
+								</button>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/2.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Computer Fundamentals and Application</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 695.00</span>
+		</div>
+
+
+
+
+		<!-----more from this user---->
+		<div class="product__wrapper">
+			<div class="products">
+				<h5>MORE FROM THIS USER</h5>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="product__item">
+							<div class="product__item-image" class="img-fluid">
+								<img src="img/DL.jpg" class="img-fluid">
+								<span>50%</span>
 							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 417.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
+							<div class="product__item-info">
+								<div class="product__item-title">
+									<p>Society and Technology</p>
+									<h4 class="product__item-brand">
+										<i class="fas fa-newspaper"></i>
+										Asmita
+									</h4>
 								</div>
 
+								<div class="product__item-price">
+									<div class="product__item-actual">
+										<span>Rs 395.00</span>
+									</div>
+
+									<div class="product__item-discount">
+										<span>Rs 197.50</span>
+										<button class="button">
+
+											<span><i class="bx bx-cart-alt"></i>Cart</span>
+										</button>
+									</div>
+
+								</div>
+
+							</div>
 						</div>
-						
+					</div>
+					<div class="col-lg-3">
+						<div class="product__item">
+							<div class="product__item-image" class="img-fluid">
+								<img src="img/2.jpg" class="img-fluid">
+								<span>40%</span>
+							</div>
+							<div class="product__item-info">
+								<div class="product__item-title">
+									<p>Computer Fundamentals and Application</p>
+									<h4 class="product__item-brand">
+										<i class="fas fa-newspaper"></i>
+										Asmita
+									</h4>
+								</div>
+
+								<div class="product__item-price">
+									<div class="product__item-actual">
+										<span>Rs 695.00</span>
+									</div>
+
+									<div class="product__item-discount">
+										<span>Rs 417.00</span>
+										<button class="button">
+
+											<span><i class="bx bx-cart-alt"></i>Cart</span>
+										</button>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="product__item">
+							<div class="product__item-image" class="img-fluid">
+								<img src="img/3.jpg" class="img-fluid">
+								<span>40%</span>
+							</div>
+							<div class="product__item-info">
+								<div class="product__item-title">
+									<p>Society and Technology</p>
+									<h4 class="product__item-brand">
+										<i class="fas fa-newspaper"></i>
+										Asmita
+									</h4>
+								</div>
+
+								<div class="product__item-price">
+									<div class="product__item-actual">
+										<span>Rs 395.00</span>
+									</div>
+
+									<div class="product__item-discount">
+										<span>Rs 237.00</span>
+										<button class="button">
+
+											<span><i class="bx bx-cart-alt"></i>Cart</span>
+										</button>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="product__item">
+							<div class="product__item-image" class="img-fluid">
+								<img src="img/4.png" class="img-fluid">
+								<span>50%</span>
+							</div>
+							<div class="product__item-info">
+								<div class="product__item-title">
+									<p>Digital Logic</p>
+									<h4 class="product__item-brand">
+										<i class="fas fa-newspaper"></i>
+										KEC
+									</h4>
+								</div>
+
+								<div class="product__item-price">
+									<div class="product__item-actual">
+										<span>Rs 495.00</span>
+									</div>
+
+									<div class="product__item-discount">
+										<span>Rs 247.50</span>
+										<button class="button">
+
+											<span><i class="bx bx-cart-alt"></i>Cart</span>
+										</button>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="product__item">
+							<div class="product__item-image" class="img-fluid">
+								<img src="img/5.jpg" class="img-fluid">
+								<span>50%</span>
+							</div>
+							<div class="product__item-info">
+								<div class="product__item-title">
+									<p>Introduction to Digital Logic</p>
+									<h4 class="product__item-brand">
+										<i class="fas fa-newspaper"></i>
+										Makalu
+									</h4>
+								</div>
+
+								<div class="product__item-price">
+									<div class="product__item-actual">
+										<span>Rs 550.00</span>
+									</div>
+
+									<div class="product__item-discount">
+										<span>Rs 275.00</span>
+										<button class="button">
+
+											<span><i class="bx bx-cart-alt"></i>Cart</span>
+										</button>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="product__item">
+							<div class="product__item-image" class="img-fluid">
+								<img src="img/DL.jpg" class="img-fluid">
+								<span>60%</span>
+							</div>
+							<div class="product__item-info">
+								<div class="product__item-title">
+									<p>Principle of Accounting 1</p>
+									<h4 class="product__item-brand">
+										<i class="fas fa-newspaper"></i>
+										Asmita
+									</h4>
+								</div>
+
+								<div class="product__item-price">
+									<div class="product__item-actual">
+										<span>Rs 825.00</span>
+									</div>
+
+									<div class="product__item-discount">
+										<span>Rs 330.00</span>
+										<button class="button">
+
+											<span><i class="bx bx-cart-alt"></i>Cart</span>
+										</button>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/3.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Society and Technology</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 395.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 237.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
+		</div>
 
+
+		<!-----Footer---->
+		<footer style="--gradient-angle: 120deg; --gradient-from:#f3efea; --gradient-to:#e1ded9;">
+			<div class="container-fluid">
+				<div class="flex-none pt-30 pb-8">
+					<div class="grid grid-cols-2 items-start text-sm | md:flex md:justify-between">
+						<ul type="list-inline">
+							<li type="list-inline-items" class="font-sans-bold exact-active"><a
+									href="#">Products</a>
+							</li>
+							<li><a href="#">Open Source</a></li>
+							<li><a href="#">Courses</a></li>
+							<li><a href="#">Web development</a></li>
+						</ul>
+
+
+						<div class="grid | md:grid-flow-col ml:items-center md:ml-12 md:gap-12">
+							<ul>
+								<li><a href="#">Vacancies</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Docs</a></li>
+								<li><a href="#">Guideline</a></li>
+								<li><a href="#"><i class='bx bxs-user'></i></a></li>
+							</ul>
 						</div>
-						
+
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/4.png" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Digital Logic</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								KEC
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 495.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 247.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
 
-						</div>
-						
-					</div>
-				</div>
-			</div>
-            </div>
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/5.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Introduction to Digital Logic</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Makalu
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 550.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 275.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
+				<hr class="my-8 h-2px text-white opacity-25 rounded | print:text-black"
+					style="page-break-after: avoid;">
 
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>60%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Principle of Accounting 1</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 825.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 330.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Computer Fundamentals and Application</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 695.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 347.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Microprocessor and computer architecture</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								KEC
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 495.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 297.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-            </div>
-
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Oxford English for Computing</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Oxford university press
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 350.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 210.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Financial Accounting</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								KEC
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 595.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 297.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Digital Logic</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								KEC Publication and Distribution Pvt. Ltd.
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 495.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 247.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Math-1</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 425.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 255.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-            </div>
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Oxford English for Computing</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Oxford university press
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 350.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 210.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Society and Technology</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita Publication
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 395.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 197.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Fundamentals Computational Techniques in Civil Engineering </p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								G.L.Book House
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 375.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 187.50</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Society and Technology</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 395.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 237.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-            </div>
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>60%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Financial Accounting ang Analysis</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Kriti Publication
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 795.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 318.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Financial Accounting</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								KEC
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 505.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 357.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>50%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Principles of Accounting-I</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Kriti Publication Pvt. Ltd.
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 825.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 330.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="product__item">
-					<div class="product__item-image" class="img-fluid">
-						<img src="img/DL.jpg" class="img-fluid">
-						<span>40%</span>
-					</div>
-					<div class="product__item-info">
-						<div class="product__item-title">
-							<p>Society and Technology</p>
-							<h4 class="product__item-brand">
-								<i class="fas fa-newspaper"></i>
-								Asmita
-							</h4>
-					      </div> 
-				           
-						<div class="product__item-price">
-							<div class="product__item-actual">
-								<span>Rs 395.00</span>
-							</div>
-							
-								<div class="product__item-discount">
-									<span>Rs 237.00</span>
-									<button class="button">
-										
-										<span><i class="bx bx-cart-alt"></i>Cart</span>
-									</button>
-								</div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-            </div>
-	</div>
-
-
-	<!-----Footer---->
-	<footer class="bg-gray-lightest gradient shadow-inner-light | print:shadow-none print:bg-transparent print:gradient-none" style="--gradient-angle: 120deg; --gradient-from:#f3efea; --gradient-to:#e1ded9;">
-    
-        <div class="flex-none pt-30 pb-8">
-		<div class="grid grid-cols-2 items-start text-sm | md:flex md:justify-between">
-			<ul type="list-inline">
-				<li type="list-inkine-items" class="font-sans-bold exact-active"><a  href="#">Products</a></li>
-				<li><a href="#">Open Source</a></li>
-				<li><a href="#">Courses</a></li>
-				<li><a href="#">Web development</a></li>
-			</ul>
-
-			
 				<div class="grid | md:grid-flow-col ml:items-center md:ml-12 md:gap-12">
 					<ul>
-	<li><a href="#">Vacancies</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Docs</a></li>
-						<li><a href="#">Guideline</a></li>
-						<li><a href="#"><i class='bx bxs-user'></i></a></li>
+						<li><a href="#">Github</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Linkedin</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Mastodon</a></li>
+						<li><a href="#">YouTube</a></li>
 					</ul>
+					<div
+						class="grid gap-4 text-sm d-flex| sm:grid-cols-2 sm:gap-8 | md:flex flex-row-reverse justify-between">
+						<address class="grid gap-4  sm:gap-0 | md:grid-flow-col md:gap-8 md:text-right">
+							<div>
+								<a class="group flex items-end | md:flex-row-reverse" href="#"
+									style="text-decoration: none; color:#767575">
+									<span style="text-decoration: none;">
+										Kruikstraat 22, Box 12
+										<br>
+										<i class="fa-solid fa-location-dot"></i> 2018 Antwerp,
+										Belgium
+									</span>
+								</a>
+							</div>
+							<div>
+								<a class="group flex items-end | md:flex-row-reverse" href="#"
+									style="text-decoration: none; color:#767575">
+									<span>
+										info@spatie.bi
+										<br>
+										+32 3 292 56 79
+									</span>
+								</a>
+							</div>
+						</address>
+					</div>
+
 				</div>
-			  
+
+				<div class="footer">
+					<div class="footer__wrap">
+						<ul>
+							<li>
+								<a href="#">Privacy</a>
+								<a href="#">Disclaimer</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+
+
+
+
+		</footer>
+		<div class="footer-bar">
+			<div class="container-fluid">
+				<strong>© 2022 <a href="#">Purano Kitab</a>.</strong>
+				All Rights Reserved.
+			</div>
 		</div>
-	  </div>
-
-	  <hr class="my-8 h-2px text-gray opacity-25 rounded | print:text-black" style="page-break-after: avoid;">
-
-	  <div class="grid | md:grid-flow-col ml:items-center md:ml-12 md:gap-12">
-		<ul>
-<li><a href="#">Github</a></li>
-			<li><a href="#">Instagram</a></li>
-			<li><a href="#">Linkedin</a></li>
-			<li><a href="#">Twitter</a></li>
-			<li><a href="#">Mastodon</a></li>
-			<li><a href="#">YouTube</a></li>
-		</ul>
-		<div class="grid gap-4 text-sm d-flex| sm:grid-cols-2 sm:gap-8 | md:flex flex-row-reverse justify-between">
-			<address class="grid gap-4  sm:gap-0 | md:grid-flow-col md:gap-8 md:text-right">
-			    <div>
-				  <a class="group flex items-end | md:flex-row-reverse" href="#" style="text-decoration: none; color:#767575">
-					<span style="text-decoration: none;">
-					    Kruikstraat 22, Box 12
-					    <br>
-					    <i class="fa-solid fa-location-dot"></i> 2018 Antwerp, Belgium
-					</span>
-				  </a>
-			    </div>
-			    <div>
-				<a class="group flex items-end | md:flex-row-reverse" href="#" style="text-decoration: none; color:#767575">
-				    <span>
-					 info@spatie.bi
-					  <br>
-					+32 3 292 56 79
-				    </span>
-			     </a>
-			  </div>
-			  </address>
-	       </div>
-
 	</div>
-	<div class="footer">
 
-	</div>
-	<div class="footer">
-		<div class="footer__wrap">
-			<ul>
-			  <li>
-				<a href="#">Privacy</a>
-				<a href="#">Disclaimer</a>
-			  </li>
-			</ul>
-		 </div>
-			
-	</div>
-	
-	
-</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.js"
+		integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+
+
+
 </body>
+
 </html>
-		
-		
-		
