@@ -603,7 +603,7 @@ address span i {
     align-items: center;
     position: relative;
   }
-  
+}
   @media only screen and (min-width: 400px) and (max-width: 1248px){
 .footer{
   width: 100%;
