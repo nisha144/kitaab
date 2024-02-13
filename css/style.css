@@ -578,11 +578,22 @@ address span i {
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   body {
       width: 100%;
-     
+     overflow: hidden;
     font-size: 15px;
   }
+
   .main{
     width: 100%;
+  }
+  .nav2{
+    width: 100%;
+    overflow: hidden;
+  }
+  .nav2 .logo{
+    width: 50px;
+  }
+  .nav2 #search__bar{
+    width: 50%;
   }
 }
   @media only screen and (min-width: 400px) and (max-width: 1248px){
