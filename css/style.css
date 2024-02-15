@@ -694,6 +694,16 @@ address span i {
     color: transparent;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .flex-none {
+    scrollbar-width: none;
+    overflow-x: scroll;
+  }
+  .grid {
+    font-size: 10px;
+    scrollbar-width: none;
+  }
+}
 @media only screen and (min-width: 400px) {
   .image__wrapper {
     height: auto;
