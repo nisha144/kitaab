@@ -607,7 +607,7 @@ address span i {
 }
 
 /* responsive */
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .footer {
     position: relative;
     left: 0;
@@ -649,7 +649,7 @@ address span i {
     font-size: 28px;
   }
  address span {
-    font-size: 14px;
+   
     text-align: right;
     color: #fff;
   }
@@ -701,7 +701,7 @@ address span i {
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .image__wrapper {
     height: auto;
     align-items: center;
@@ -733,13 +733,18 @@ address span i {
   .product__wrapper .products h5 {
     font-size: 18px;
   }
-
+  .page__content .back__button{
+   margin-left: -20px;
+   margin-top: -10px;
+  }
   .page__content .back__button a {
     font-size: 10px;
   }
 
   .image__wrapper span {
     font-size: 10px;
+    
+    
   }
   .menu__area .top__wishlist i {
     font-size: 14px;
@@ -764,8 +769,6 @@ address span i {
   footer ul {
     padding-left: 0;
   }
-
- 
   .header__content p{
     font-size: 11px;
   }
